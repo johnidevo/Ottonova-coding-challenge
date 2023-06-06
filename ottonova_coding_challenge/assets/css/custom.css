@@ -1,0 +1,83 @@
+.slot {
+  height: 17px;
+  position: absolute;
+  opacity: .60;
+  width: 100%;
+  margin-left: -50%;
+}
+
+.border .form-row {
+  border: 1px solid lightgray;
+}
+
+.btn.btn-primary.btn-lg.time-nav {
+  height: 100%;
+  width: 40px;
+  padding: 0px;
+}
+
+.form-group.time-picker label {
+  height: 30px;
+  width: 100%;
+  /*margin-bottom: 0px !important;*/
+  margin: 0px;
+  /*padding-top: 6px;*/
+}
+
+.form-row.time-picker label {
+  height: 34px;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  opacity: .80;
+  display: block;
+  margin: 0px;
+  padding-top: 6px;
+}
+
+.time-slot-available {
+  background-color: #0fab3a;
+  color: rgb(255,255,255);
+}
+
+.time-slot-not-available {
+  background-color: #ececec;
+  color: rgb(255,255,255);
+}
+
+.time-picker-header .col h6 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 5px;
+}
+
+.form-row.time-picker {
+  font-size: 90%;
+}
+
+.slot-top {
+  margin-top: -34px;
+}
+
+.slot-bottom {
+  margin-top: -17px;
+}
+
+.portfolio-navbar.fixed-top + .page {
+  padding-top: 130px !important;
+  padding-bottom: 80px;
+  background-color: #fff;
+}
+
+body {
+  background-color: #023c76;
+}
+
+.card-body span {
+  margin-left: 5px;
+}
+
+.card-body sub {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
